@@ -1,0 +1,17 @@
+account_id = "a0b19134b3f8f7aaae377202538aafe3"
+zone_id = ""
+name = "itty-durable-example"
+type = "javascript"
+workers_dev = true
+
+[durable_objects]
+bindings = [
+  { name = "Counter", class_name = "Counter" }
+]
+
+[build]
+command = "npm run build"
+
+[build.upload]
+format = "modules"
+main = "./index.mjs"

@@ -11,13 +11,12 @@
   "author": "Kevin Whitley <krwhitley@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/wrangler": "=1.15.0-custom-builds-rc.2",
-    "esbuild": "^0.11.11",
-    "prettier": "^2.2.1"
+    "esbuild": "^0.12.6",
+    "prettier": "^2.3.1"
   },
   "dependencies": {
-    "itty-durable": "^0.3.0",
-    "itty-router": "^2.3.6",
+    "itty-durable": "^0.4.0",
+    "itty-router": "^2.3.10",
     "itty-router-extras": "^0.4.2"
   }
 }
